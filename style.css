@@ -1,4 +1,12 @@
 body {
     margin: 0px;
     background-color: white;
+    height: fit-content;
+    width: 100vw;
+}
+
+.header-class {
+    background-color: greenyellow;
+    border: 5px;
+
 }
