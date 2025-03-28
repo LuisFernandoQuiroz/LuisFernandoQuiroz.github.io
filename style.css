@@ -1,12 +1,32 @@
 body {
-    margin: 0px;
-    background-color: white;
-    height: fit-content;
-    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 
-.header-class {
-    background-color: greenyellow;
-    border: 5px;
+p,h1 {
+    margin: 0;
+    padding: 0;
+}
 
+.name {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+.name-text {
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    border: 5px solid blue;
+    margin: 25% 25%;
+}
+
+.header {
+    background-color: red;
+    border: 5px;
+    position: sticky;
+    top: 0;
 }
