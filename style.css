@@ -8,7 +8,7 @@ p,h1 {
     padding: 0;
 }
 
-.name {
+.first-panel {
     height: 100vh;
     width: 100%;
     position: relative;
@@ -16,12 +16,22 @@ p,h1 {
     background-color: black;
 }
 
-.name-text {
-    color: white;
-    text-align: center;
-    vertical-align: center;
+.first-panel-usable{
+    height: 50vh;
+    width: 50%;
+    margin: 25%;
     border: 5px solid blue;
-    margin: 25% 25%;
+    background-color: white;
+}
+
+.name-text {
+    color: black;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin:auto;
+    margin-top: 25%;
+    text-align: center;
+    border: 5px solid red;
 }
 
 .header {
